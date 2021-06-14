@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-permissions',
-  templateUrl: './permissions.component.html',
-  styleUrls: ['./permissions.component.scss']
+  template: ``,
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PermissionsComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
