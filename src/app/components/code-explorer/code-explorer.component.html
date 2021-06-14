@@ -1,0 +1,9 @@
+<div>
+  <ng-container *ngFor="let code of codes;index as i">
+    <button class="selector" (click)="selectedTab$.next(i)"
+            [class.active]="(selectedTab$ | async) === i">{{code.name}}</button>
+  </ng-container>
+</div>
+<ng-container *ngIf="selectedCode$ | async as code">
+  <textarea highlight-js [lang]="code.language">{{ code?.content }}</textarea>
+</ng-container>

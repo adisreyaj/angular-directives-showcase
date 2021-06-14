@@ -20,3 +20,7 @@ body {
   top: 0;
   left: 0;
 }
+
+pre {
+  @apply rounded-b-md rounded-tr-md;
+}

@@ -1,4 +1,5 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { FULLSCREEN_CODE } from 'src/app/config/fullscreen-code.config.';
 
 @Component({
   selector: 'app-fullscreen',
@@ -20,11 +21,12 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
       </header>
       <div class="flex-1 bg-gray-100"></div>
     </div>
+    <section class="mt-20">
+      <app-code-explorer [codes]="codes"></app-code-explorer>
+    </section>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class FullscreenComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
+export class FullscreenComponent {
+  codes = FULLSCREEN_CODE;
 }

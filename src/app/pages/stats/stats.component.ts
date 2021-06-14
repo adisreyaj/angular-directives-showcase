@@ -1,14 +1,20 @@
 import { Component } from '@angular/core';
 import { StatsCardData } from 'src/app/components/stats-card/stats-card.component';
+import { STATS_CODE } from 'src/app/config/stats-code.config';
 
 @Component({
   selector: 'app-stats',
-  template: ` <app-page-header title="Stats Card"></app-page-header>
+  template: `
+    <app-page-header title="Stats Card"></app-page-header>
     <section class="stats__container grid gap-4">
       <ng-container *ngFor="let stat of stats">
         <app-stats-card [data]="stat"></app-stats-card>
       </ng-container>
-    </section>`,
+    </section>
+    <section class="mt-20">
+      <app-code-explorer [codes]="codes"></app-code-explorer>
+    </section>
+  `,
   styles: [
     `
       .stats__container {
@@ -35,4 +41,6 @@ export class StatsComponent {
       delta: 25,
     },
   ];
+
+  codes = STATS_CODE;
 }
