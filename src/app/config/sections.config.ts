@@ -13,10 +13,10 @@ export const SECTIONS = [
     link: 'fullscreen',
     description: 'A directive that can help add  maximize/minimize functionality to a component',
   },
-  // {
-  //   name: 'Permissions Directive',
-  //   image: '',
-  //   link: 'permissions',
-  //   description: 'A structural directive that can be used to display items only if they are authorized to view them.',
-  // },
+  {
+    name: 'Permissions Directive',
+    image: 'permissions',
+    link: 'permissions',
+    description: 'A structural directive that can be used to display items only if they are authorized to view them.',
+  },
 ];

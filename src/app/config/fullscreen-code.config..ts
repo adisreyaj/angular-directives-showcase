@@ -19,12 +19,18 @@ export class UiFullscreenDirective {
     if (this.el) {
       this.isMaximizedSubject.next(true);
       this.nativeElement.classList.add('fullscreen');
+      if (Fullscreen.isEnabled) {
+        Fullscreen.request();
+      }
     }
   }
   minimize() {
     if (this.el) {
       this.isMaximizedSubject.next(false);
       this.nativeElement.classList.remove('fullscreen');
+      if (Fullscreen.isEnabled) {
+        Fullscreen.exit();
+      }
     }
   }
 
