@@ -10,12 +10,14 @@ import { FULLSCREEN_CODE } from 'src/app/config/fullscreen-code.config.';
         class="flex bg-blue-200 rounded-tl-md rounded-tr-md text-gray-800 justify-between items-center py-2 px-4 border-b border-gray-300"
       >
         <p>Total Sales Report</p>
-        <div class="grid grid-cols-2 gap-2">
-          <button class="w-6 h-6 p-1 cursor-pointer overflow-hidden" (click)="fullscreen.minimize()">
-            <span>🗕</span>
-          </button>
-          <button class="w-6 h-6 p-1 cursor-pointer overflow-hidden" (click)="fullscreen.maximize()">
-            <span>🗖</span>
+        <div>
+          <button class="grid items-center w-8 h-8 p-1 cursor-pointer overflow-hidden" (click)="fullscreen.toggle()">
+            <ng-container *ngIf="fullscreen.isMaximized$ | async; else maximizeIcon">
+              <img src="../../../assets/icons/minimize.svg" alt="Minimize" width="24" height="24" />
+            </ng-container>
+            <ng-template #maximizeIcon>
+              <img src="../../../assets/icons/maximize.svg" alt="Minimize" width="24" height="24" />
+            </ng-template>
           </button>
         </div>
       </header>
