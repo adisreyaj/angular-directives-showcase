@@ -5,7 +5,7 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
   template: `
     <header class="w-100 h-16 bg-blue-600 flex items-center justify-between px-4">
       <div>
-        <p class="text-white text-lg font-medium">Angular Directives</p>
+        <a routerLink="/" class="text-white text-lg font-medium">Angular Directives</a>
       </div>
       <div>
         <a href="https://github.com/adisreyaj/ng-directives" target="_blank">
