@@ -18,6 +18,7 @@ const routes: Routes = [
     loadChildren: () => import('./pages/permissions/permissions.module').then((m) => m.PermissionsModule),
   },
   { path: 'stats', loadChildren: () => import('./pages/stats/stats.module').then((m) => m.StatsModule) },
+  { path: 'highlight', loadChildren: () => import('./pages/highlight/highlight.module').then(m => m.HighlightModule) },
 ];
 
 @NgModule({

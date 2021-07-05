@@ -19,4 +19,11 @@ export const SECTIONS = [
     link: 'permissions',
     description: 'A structural directive that can be used to display items only if they are authorized to view them.',
   },
+  {
+    name: 'Highlight Directive',
+    image: 'highlight',
+    link: 'highlight',
+    description:
+      'A simple directive that can be used to highlight text in a paragraph. Useful for highlighting search matches',
+  },
 ];
