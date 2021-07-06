@@ -4,7 +4,7 @@ import { HIGHLIGHT_CODE } from 'src/app/config/highlight-code.config';
 @Component({
   selector: 'app-highlight',
   template: `
-    <app-page-header title="Fullscreen Toggle"></app-page-header>
+    <app-page-header title="Highlight Directive"></app-page-header>
     <div
       style="max-width: 600px; width: 90%;"
       class="bg-white w-full flex flex-col items-start shadow-xl p-4 mt-10 border border-gray-200"
