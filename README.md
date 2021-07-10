@@ -58,12 +58,15 @@ Don't forget to ⭐ the repository if you like it.
  <a href="https://twitter.com/AdiSreyaj">
  <img alt="Twitter" src="https://img.shields.io/badge/@Adisreyaj-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white"/>
  </a>
+ <br/>
  <a href="https://github.com/adisreyaj">
 <img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
- <a href="https://www.buymeacoffee.com/adisreyaj">
+ <br/>
  <a href="https://www.linkedin.com/in/adithyasreyaj/">
  <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
+ <br/>
+ <a href="https://www.buymeacoffee.com/adisreyaj">
  <img alt="BuyMeACoffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
 </a>
