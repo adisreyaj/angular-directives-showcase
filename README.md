@@ -1,27 +1,69 @@
-# NgDirectivesShowcase
+<h1 align="center">Angular Directive Showcase</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Angular-v12-red?style=for-the-badge&logo=angular" alt="angular">
+  <img src="https://img.shields.io/badge/Conventional Commits-friendly-brightgreen.svg?style=for-the-badge&logo=git" alt="Commitizen">
+  <img src="https://img.shields.io/badge/Styled_with-Prettier-ff69b4.svg?style=for-the-badge&logo=prettier" alt="Prettier">
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
+A collection of directives that can be used in different scenarios. See how to extract
+away the extra logics from components to have a more maintainable and reusable code.
 
-## Development server
+![Angular Directives Showcase](./docs/assets/feature-image.jpg)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Examples Showcased
 
-## Code scaffolding
+1. Delta Value Arrow
+2. Full-screen Toggle
+3. Permission
+4. Highlight Text
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Each directive has a dedicated page where the code is also displayed.
 
-## Build
+![Angular Directives Detail](./docs/assets/detail-page.jpg)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## Run Locally
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### 1. Download or Clone the repository
 
-## Running end-to-end tests
+```sh
+git clone https://github.com/adisreyaj/angular-directives-showcase.git
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#### 2. Install dependencies
 
-## Further help
+```sh
+npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### 3. Run application
+
+```sh
+npm start
+```
+
+#### 4. Open the URL in browser
+
+```
+http://localhost:4200
+```
+
+---
+
+## Support
+
+Don't forget to ⭐ the repository if you like it.
+
+ <a href="https://twitter.com/AdiSreyaj">
+ <img alt="Twitter" src="https://img.shields.io/badge/@Adisreyaj-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white"/>
+ </a>
+ <a href="https://github.com/adisreyaj">
+<img alt="GitHub" src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+ <a href="https://www.buymeacoffee.com/adisreyaj">
+ <a href="https://www.linkedin.com/in/adithyasreyaj/">
+ <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+ <img alt="BuyMeACoffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
+</a>
