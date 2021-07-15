@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
       <p class="font-medium hover:text-blue-600">
         <a [routerLink]="data.link">{{ data?.name }}</a>
       </p>
-      <p class="mt-2 text-sm text-gray-600">{{ data?.description }}</p>
+      <p class="mt-2 text-sm text-gray-600 line-clamp-3">{{ data?.description }}</p>
     </div>
   `,
 })
