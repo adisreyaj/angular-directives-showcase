@@ -46,19 +46,6 @@ import { AuthService } from 'src/app/services/auth.service';
       <app-code-explorer [codes]="code"></app-code-explorer>
     </section>
   `,
-  styles: [
-    `
-      .btn {
-        @apply bg-gray-100;
-        @apply px-3 py-2;
-        @apply rounded-md;
-        @apply hover:bg-blue-600 hover:text-white;
-        &.active {
-          @apply bg-blue-600 text-white;
-        }
-      }
-    `,
-  ],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class PermissionsComponent implements OnInit {

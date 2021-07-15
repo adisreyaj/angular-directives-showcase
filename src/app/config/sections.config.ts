@@ -26,4 +26,11 @@ export const SECTIONS = [
     description:
       'A simple directive that can be used to highlight text in a paragraph. Useful for highlighting search matches',
   },
+  {
+    name: 'Long Press Directive',
+    image: 'long-press',
+    link: 'long-press',
+    description:
+      'A simple directive that can be used to highlight text in a paragraph. Useful for highlighting search matches',
+  },
 ];

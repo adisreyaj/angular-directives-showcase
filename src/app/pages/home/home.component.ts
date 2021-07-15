@@ -4,19 +4,12 @@ import { SECTIONS } from 'src/app/config/sections.config';
 @Component({
   selector: 'app-home',
   template: `
-    <section class="grid gap-6 sections__container">
+    <section class="grid gap-2 md:gap-6 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
       <ng-container *ngFor="let section of sections">
         <app-section-card [data]="section"></app-section-card>
       </ng-container>
     </section>
   `,
-  styles: [
-    `
-      .sections__container {
-        grid-template-columns: repeat(auto-fit, 350px);
-      }
-    `,
-  ],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HomeComponent implements OnInit {

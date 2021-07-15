@@ -16,6 +16,7 @@ away the extra logics from components to have a more maintainable and reusable c
 2. Full-screen Toggle
 3. Permission
 4. Highlight Text
+5. Long Press Directive
 
 Each directive has a dedicated page where the code is also displayed.
 
