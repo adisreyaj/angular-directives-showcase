@@ -13,10 +13,12 @@ away the extra logics from components to have a more maintainable and reusable c
 ## Examples Showcased
 
 1. Delta Value Arrow
-2. Full-screen Toggle
-3. Permission
-4. Highlight Text
-5. Long Press Directive
+1. Full-screen Toggle
+1. Permission
+1. Highlight Text
+1. Long Press Directive
+1. Badge Directive
+1. Table Sort Directive
 
 Each directive has a dedicated page where the code is also displayed.
 
