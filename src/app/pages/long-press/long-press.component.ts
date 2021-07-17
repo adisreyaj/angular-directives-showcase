@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { LONG_PRESS_CODE } from 'src/app/config/long-press-code.config';
+import { LONG_PRESS_CODE } from '@config/long-press-code.config';
 
 @Component({
   selector: 'app-long-press',

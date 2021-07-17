@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { StatsCardData } from 'src/app/components/stats-card/stats-card.component';
-import { STATS_CODE } from 'src/app/config/stats-code.config';
+import { StatsCardData } from '@components/stats-card/stats-card.component';
+import { STATS_CODE } from '@config/stats-code.config';
+
 
 @Component({
   selector: 'app-stats',

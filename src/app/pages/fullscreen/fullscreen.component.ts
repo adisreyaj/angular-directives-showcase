@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { FULLSCREEN_CODE } from 'src/app/config/fullscreen-code.config.';
+import { FULLSCREEN_CODE } from '@config/fullscreen-code.config.';
 
 @Component({
   selector: 'app-fullscreen',

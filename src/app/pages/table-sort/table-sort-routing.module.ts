@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ButtonsComponent } from './buttons.component';
+import { TableSortComponent } from './table-sort.component';
 
-const routes: Routes = [{ path: '', component: ButtonsComponent }];
+const routes: Routes = [{ path: '', component: TableSortComponent }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ButtonsRoutingModule { }
+export class TableSortRoutingModule { }
