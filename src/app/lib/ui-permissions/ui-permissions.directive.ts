@@ -14,7 +14,7 @@ export class UiPermissionsDirective implements OnInit, OnDestroy {
   private subscription!: Subscription;
 
   @Input()
-  set appUiPermissions(permission: Permissions) {
+  set appUiPermissions(permission: any) {
     this.permission = permission;
     this.updateView();
   }

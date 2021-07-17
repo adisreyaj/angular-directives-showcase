@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { PERMISSION_CODE } from '@config/permissions-code.config';
 import { AuthService } from '@services/auth.service';
 
@@ -36,9 +36,9 @@ import { AuthService } from '@services/auth.service';
           </div>
         </div>
         <footer class="flex items-center gap-4 mt-6">
-          <button class="btn" *appUiPermissions="permissions.read; feature: 'product'">View</button>
-          <button class="btn" *appUiPermissions="permissions.update; feature: 'product'">Edit</button>
-          <button class="btn" *appUiPermissions="permissions.delete; feature: 'product'">Delete</button>
+          <button class="btn" *appUiPermissions="'READ'; feature: 'product'">View</button>
+          <button class="btn" *appUiPermissions="'UPDATE'; feature: 'product'">Edit</button>
+          <button class="btn" *appUiPermissions="'DELETE'; feature: 'product'">Delete</button>
         </footer>
       </div>
     </section>
@@ -48,10 +48,7 @@ import { AuthService } from '@services/auth.service';
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class PermissionsComponent implements OnInit {
-  permissions = Permissions;
+export class PermissionsComponent {
   code = PERMISSION_CODE;
-  constructor(public authService: AuthService) {}
-
-  ngOnInit(): void {}
+  constructor(public authService: AuthService) { }
 }
