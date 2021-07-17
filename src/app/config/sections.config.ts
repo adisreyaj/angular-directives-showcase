@@ -33,4 +33,10 @@ export const SECTIONS = [
     description:
       'Add long press behavior to elements with this directive. Comes with configurable long press delay time.',
   },
+  {
+    name: 'Badge Directive',
+    image: 'badges',
+    link: 'badges',
+    description: 'Super simple directive to add badges to your elements. Customize the position and sizes.',
+  },
 ];

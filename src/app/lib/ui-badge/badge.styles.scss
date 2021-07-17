@@ -1,0 +1,62 @@
+
+:root {
+  --primary: hsl(207, 94%, 49%);
+  --primary-dark: hsl(207, 94%, 39%);
+  --secondary: hsl(129, 87%, 22%);
+}
+
+/*  ------- Styles for Badges Start ------- */
+.badge-container {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+  color: #fff;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0px 2px 6px -1px rgb(0 0 0 / 50%);
+}
+.badge.primary {
+  --bg-color: var(--primary);
+}
+
+.badge.secondary {
+  --bg-color: var(--secondary);
+}
+
+.badge.top {
+  top: -10px;
+}
+.badge.bottom {
+  bottom: -10px;
+}
+.badge.left {
+  left: -10px;
+}
+.badge.right {
+  right: -10px;
+}
+.badge.small {
+  width: 18px;
+  height: 18px;
+  font-size: 10px;
+}
+.badge.medium {
+  width: 22px;
+  height: 22px;
+  font-size: 11px;
+}
+.badge.large {
+  width: 28px;
+  height: 28px;
+  font-size: 12px;
+}
+/*  ------- Styles for Badges End ------- */
