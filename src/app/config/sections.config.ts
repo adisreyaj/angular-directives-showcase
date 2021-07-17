@@ -24,13 +24,13 @@ export const SECTIONS = [
     image: 'highlight',
     link: 'highlight',
     description:
-      'A simple directive that can be used to highlight text in a paragraph. Useful for highlighting search matches',
+      'A simple directive that can be used to highlight text in a paragraph. Useful for highlighting search matches.',
   },
   {
     name: 'Long Press Directive',
     image: 'long-press',
     link: 'long-press',
     description:
-      'A simple directive that can be used to highlight text in a paragraph. Useful for highlighting search matches',
+      'Add long press behavior to elements with this directive. Comes with configurable long press delay time.',
   },
 ];
