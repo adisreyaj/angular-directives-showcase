@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
-import { SECTIONS } from 'src/app/config/sections.config';
+import { SECTIONS } from '@config/sections.config';
 
 @Component({
   selector: 'app-home',

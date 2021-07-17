@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { HIGHLIGHT_CODE } from 'src/app/config/highlight-code.config';
+import { HIGHLIGHT_CODE } from '@config/highlight-code.config';
 
 @Component({
   selector: 'app-highlight',

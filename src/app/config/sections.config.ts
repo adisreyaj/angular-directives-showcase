@@ -39,4 +39,10 @@ export const SECTIONS = [
     link: 'badges',
     description: 'Super simple directive to add badges to your elements. Customize the position and sizes.',
   },
+  {
+    name: 'Table Sort Directive',
+    image: 'table-sort',
+    link: 'table-sort',
+    description: 'Outsource the logic for sorting into a directive. This way the table component would be leaner.',
+  },
 ];
