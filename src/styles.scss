@@ -3,6 +3,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@import './app/lib/ui-badge/badge.styles.scss';
 * {
   margin: 0;
   padding: 0;

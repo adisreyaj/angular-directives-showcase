@@ -20,6 +20,7 @@ const routes: Routes = [
   { path: 'stats', loadChildren: () => import('./pages/stats/stats.module').then((m) => m.StatsModule) },
   { path: 'highlight', loadChildren: () => import('./pages/highlight/highlight.module').then(m => m.HighlightModule) },
   { path: 'long-press', loadChildren: () => import('./pages/long-press/long-press.module').then(m => m.LongPressModule) },
+  { path: 'badges', loadChildren: () => import('./pages/badges/badges.module').then(m => m.BadgesModule) },
 ];
 
 @NgModule({
