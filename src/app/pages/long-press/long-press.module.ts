@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { CodeExplorerModule } from 'src/app/components/code-explorer/code-explorer.module';
-import { PageHeaderModule } from 'src/app/components/page-header/page-header.module';
-import { UiLongPressModule } from 'src/app/lib/ui-long-press/ui-long-press.module';
+import { CodeExplorerModule } from '@components/code-explorer/code-explorer.module';
+import { PageHeaderModule } from '@components/page-header/page-header.module';
+import { UiLongPressModule } from '@lib/ui-long-press/ui-long-press.module';
 import { LongPressRoutingModule } from './long-press-routing.module';
 import { LongPressComponent } from './long-press.component';
 

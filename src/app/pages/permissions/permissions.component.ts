@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
-import { PERMISSION_CODE } from 'src/app/config/permissions-code.config';
-import { Permissions } from 'src/app/interfaces/user.interface';
-import { AuthService } from 'src/app/services/auth.service';
+import { PERMISSION_CODE } from '@config/permissions-code.config';
+import { AuthService } from '@services/auth.service';
+
 
 @Component({
   selector: 'app-permissions',

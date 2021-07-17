@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BADGES_CODE } from 'src/app/config/badges-code.config';
+import { BADGES_CODE } from '@config/badges-code.config';
 
 @Component({
   selector: 'app-badges',
